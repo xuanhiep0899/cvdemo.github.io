@@ -1,0 +1,371 @@
+.banner-product{
+	position: relative;
+	width: 100%;
+	height: 426px;
+	background-size: cover;
+	background-repeat: no-repeat;	
+	overflow: hidden;
+	transition: .3s;
+	box-shadow: 0 0 16px #ccc;
+}
+
+.text-content{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 40px;
+	opacity: 0;
+	visibility: hidden;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.back-blur{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background: rgba(0, 0, 0, 0.507);
+	opacity: 0;
+	visibility: hidden;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.banner-product:hover .text-content,.banner-product:hover .back-blur{
+	opacity: 1;
+	visibility: visible;
+}
+
+.card img{
+	transition: .3s;
+	cursor: pointer;
+}
+
+.card{
+	cursor: pointer !important;
+	width: 95% !important;
+	height: 374px;
+	transition: .3s;
+	border: 1px solid rgba(204, 204, 204, 0.767);
+}
+
+.card:hover{
+	background: rgb(165 154 77 / 79%);
+	box-shadow: 0 0 20px #bdcca2;
+	border: none;
+	color: white;
+}
+
+.card:hover img{
+	box-shadow: 0 0 20px #232320bd;
+	display: block;
+	filter: blur(2px);
+}
+
+.card:hover .icon-relative{
+	opacity: 1;
+	top: 25%;
+}
+
+.card .icon-relative{
+	opacity: 0;
+	width: 100%;
+	top: 15%;
+	left: 7%;
+	transition: .4s;
+}
+
+.card .icon-relative .icon:hover i{
+	color: green !important;
+}
+
+.icon-relative .border{
+	background: #fff !important;
+	color: #000 !important;
+}
+
+.icon-relative i{
+	color: #000;
+}
+
+.services-list .icon i{
+	font-size: 33px !important;
+	color: green;
+}
+
+.services-list:hover .text{
+	z-index: 999;
+}
+
+.services-list .text h5{
+	font-size: 17px;
+}
+
+.services-list .text p{
+	font-size: 14px;
+}
+
+.promo-wrapper{
+	position: relative;
+	background: url('./design/promo-banner-full.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 325px;
+}
+
+.promo-wrapper:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: .3s;
+	cursor: pointer;
+}
+.promo-wrapper:hover:before{
+	background: #fffdfd38	;
+}
+
+.promo-text{
+	position: absolute;
+	top: 130px;
+	left: 0;
+	z-index: 9;
+	cursor: pointer;
+}
+
+.promo-text h2{
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.promo-text h3{
+	color: #fff !important;
+}
+
+.promo-text h3 a{
+	color: #fff !important;
+}
+
+.contact-us ul li{
+	list-style-type: none;
+}
+
+.social-media{
+	background: #fff;
+}
+
+.social-media .icon{
+	padding-bottom: 17px;
+	transition: .4s;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+
+.social-media .icon i{
+	width: 50px;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    color: #a9a9a9;
+    transition: .3s;
+}
+
+.youtobe{
+	padding-left: 7px;
+}
+
+.social-media .icon:hover{
+	background: #fff;
+	box-shadow: 0 0 16px #ccc;
+}
+
+.social-media .icon:hover .fa-facebook{
+	color: #4f6296;
+}
+
+.social-media .icon:hover .fa-youtube{
+	color: #ff0018;
+}
+
+.social-media .icon:hover .fa-twitter-square{
+	color: #58a0ec;
+}
+
+.social-media .icon:hover .fa-google-plus{
+	color: #eaa761;
+}
+
+.banner{
+	position: relative;
+}
+
+.background{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #0c0b0bab;	
+	z-index: 99;
+}
+
+.menu-hidden li a{
+	margin-top: 10px;
+	color: #fff !important;
+}
+
+.menu-hidden li:hover a{
+	color: #ccc !important;
+}
+
+.dropdown{
+	z-index: 9;
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.form-popup {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid #f1f1f1;
+  z-index: 99;
+  background-color: white;
+  padding: 15px 0;
+  transition: .5s;
+}
+
+.active1{
+  opacity: 1;
+  visibility: visible;
+  transition: .5s;
+  top: 50%;
+}
+
+.containerr{
+	position: relative;
+}
+
+/*.containerr#body.active{
+	filter: blur(10px);
+	pointer-events: none;
+	user-select: none;
+}*/
+
+.form-container {
+  max-width: 500px;
+  padding: 10px;
+  background-color: white;
+  }
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: 1px solid #ccc;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+#body{
+	transition: .3s;
+}
+
+#body.fade{
+	transition: .3s;
+	opacity: 1;
+}
+
+.fade:before{
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background:#ffffffbf;
+	z-index: 9;
+	opacity: 1;
+	transition: .3s;
+}
+
+.fade:not(.show) {
+   opacity: 1;
+}
+
+.book-cate1{
+	width: 245px;
+	height: 386px;
+	overflow: hidden;
+}
+
+.book-cate2{
+	width: 469px;
+	height: 182px;
+	overflow: hidden;
+}
+
+.book-cate3{
+	width: 315;
+	height: 180px;
+	overflow: hidden;
+}
+
+.book-cate4{
+	width: 313px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.book-cate5{
+	width: 452px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.book-cate img{
+	width: 100%;
+	height: 100%;
+	transition: .5s;
+}
+
+.book-cate:hover img{
+	transform: scale(1.1);
+}

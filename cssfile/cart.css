@@ -1,0 +1,54 @@
+.cart-content .title h3{
+    font-size: 25px;
+    color: #250b8caa;
+}
+
+.product-in-cart table th{
+padding: 5px 40px;
+}
+
+.product-in-cart table th:last-child{
+    border-right: none;
+}
+
+.button-amount, .trash-button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.trash-button{
+    border: none;
+}
+
+.button-amount:focus, .trash-button:focus{
+    outline: none;
+}
+
+.amount-field input{
+    width: 30px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.amount-field input:focus{
+    outline: none;
+}
+
+.button-amount i{
+    font-size: 12px;
+}
+
+.payment button{
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+table th{
+    font-size: 12px;
+}

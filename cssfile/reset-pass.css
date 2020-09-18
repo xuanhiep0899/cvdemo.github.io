@@ -1,0 +1,50 @@
+.login-content{
+    width: 450px;
+    height: 100%;
+    margin: auto;
+}
+
+.header{
+    height: 100px;
+}
+
+.form-submit{
+    width: 450px;
+    height: 350px;
+    padding: 60px 30px;
+    background-color: #fff;
+}
+
+.social-media img{
+    width: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.social-media img:hover{
+    border-radius: 50%;
+    box-shadow: 0 0 16px #00000091;
+}
+
+.home-button img{
+    height: 55px;
+}
+
+.logo img{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.home-button i{
+    font-size: 30px;
+}
+
+body{
+    background: #fbedcf!important;
+}
+
+.anou{
+    font-size: 14px;
+}

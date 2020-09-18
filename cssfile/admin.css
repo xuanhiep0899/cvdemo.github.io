@@ -1,0 +1,112 @@
+header,.content-center{
+    width: 100%;
+}
+
+header{
+    position: absolute;
+    z-index: 1002;
+    top: 0;
+    position: fixed;
+    height: 80px;
+    background: #fff;
+}
+
+.content-center{
+    margin-top: 100px;
+}
+
+.menu-content{
+    display: block;
+    width: 100%;
+}
+
+.app-search .form-control {
+    border: none;
+    height: 38px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: #f3f3f9;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 30px;
+}
+
+.app-search span {
+    position: absolute;
+    z-index: 10;
+    font-size: 16px;
+    line-height: 38px;
+    left: 13px;
+    top: 0;
+    color: #74788d;
+}
+
+.content-center ul li a{
+    font-size: 14px;
+    color: #ffffff94;
+    line-height: 30px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.content-center ul li:hover .effect{
+    color: #fff;
+}
+
+.sub-menu{
+    display: none;
+    margin-left: 50px;
+    /* transition: .1s; */
+}
+
+.show-menu{
+    display: block;
+    /* transition: .1s; */
+}
+
+element.style {
+    display: block;
+}
+
+.sub-menu li:hover a{
+    color: #fff;
+}
+
+.sidebar{
+    height: 800px;
+}
+
+.scrollbar {
+    width: 267px;
+    height: 700px;
+    overflow: scroll;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 6px;
+    height: 10px;
+    background-color: #f1f1f142;
+} 
+
+#style-1::-webkit-scrollbar-thumb {
+    background-color: #f1f1f141;
+    height: 5px;
+}
+
+.sidebar ul li{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul li span{
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+
+.add-product{
+    left: 265px;
+    z-index: 0;
+    position: relative;
+}
